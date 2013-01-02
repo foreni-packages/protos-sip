@@ -1,15 +1,17 @@
 Source: protos-sip
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/protos-sip.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/protos-sip.git;a=summary
+Homepage: https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-sip
+Vcs-Git: ssh://git@git.kali.org/packages/protos-sip.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/protos-sip.git;a=summary
 
 Package: protos-sip
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}, default-jre
+Description: SIP test suite
+ The purpose of this test-suite is to evaluate implementation 
+ level security and robustness of Session Initiation Protocol 
+ (SIP) implementations.

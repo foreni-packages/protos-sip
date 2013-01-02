@@ -11,3 +11,7 @@
 
 %:
 	dh $@ 
+
+override_dh_auto_install:
+	dh_installdirs
+	install c07-sip-r2.jar $(CURDIR)/debian/protos-sip/usr/bin/protos-sip.jar

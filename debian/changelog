@@ -1,5 +1,5 @@
-protos-sip (1.0-1) unstable; urgency=low
+protos-sip (1.0-1kali0) kali; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release 
 
  -- Devon Kearns <dookie@kali.org>  Tue, 01 Jan 2013 19:27:52 -0700
