@@ -1,3 +1,9 @@
+protos-sip (1.0-1kali1) kali; urgency=low
+
+  * Changed the install method and put in a helper script
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 31 Jan 2013 07:36:13 -0700
+
 protos-sip (1.0-1kali0) kali; urgency=low
 
   * Initial release 
